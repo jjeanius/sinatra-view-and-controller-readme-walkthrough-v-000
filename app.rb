@@ -18,10 +18,7 @@ class App < Sinatra::Base
     erb :friends
 
     post '/friends' do
-      @friend = original_string
-      friend
-
-      erb :reversed
+        erb :friends
     end
-  end
+
 end
