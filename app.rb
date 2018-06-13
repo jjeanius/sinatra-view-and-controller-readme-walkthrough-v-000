@@ -10,7 +10,7 @@ class App < Sinatra::Base
     reversed_string = original_string.reverse
     erb :reversed
   end
-  
+
 
   get '/friends' do
     @friends = ['emily Wilding Davision', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai',  'Sojourner Truth']
